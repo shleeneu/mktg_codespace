@@ -16,5 +16,15 @@
       "installChromium": "false"
     }
   },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "quarto.quarto",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.datawrangler",
+        "github.copilot"
+      ]
+    }
+  },
   "postCreateCommand": "pip3 install -r requirements.txt"
 }
